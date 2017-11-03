@@ -25,4 +25,4 @@ Node目录
 
 Git目录
 ---
-[Git 面对不同的场景的命令使用]()
+[Git 面对不同的场景的命令使用](https://github.com/CodeLittlePrince/blog/issues/1)
