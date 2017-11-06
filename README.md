@@ -14,7 +14,7 @@
 
 杂谈
 ---
-[canvas-玩转每一个像素-滤镜]https://github.com/CodeLittlePrince/blog/issues/4
+[canvas-玩转每一个像素-滤镜](https://github.com/CodeLittlePrince/blog/issues/4)
 
 PC目录
 ---
