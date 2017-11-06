@@ -12,6 +12,10 @@
 ----
 - segmentfault: [segmentfault主页](https://segmentfault.com/u/killpigdao)
 
+杂谈
+---
+[canvas-玩转每一个像素-滤镜]https://github.com/CodeLittlePrince/blog/issues/4
+
 PC目录
 ---
 
