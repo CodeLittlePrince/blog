@@ -32,6 +32,7 @@ Node目录
 网络安全
 ---
 [网络安全-XSS](https://github.com/CodeLittlePrince/blog/issues/2)
+[网络安全-CSRF](https://github.com/CodeLittlePrince/blog/issues/6)
 
 Git目录
 ---
