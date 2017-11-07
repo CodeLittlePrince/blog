@@ -35,6 +35,6 @@ Node
 
 [网络安全-CSRF](https://github.com/CodeLittlePrince/blog/issues/6)
 
-Git目录
+Git
 ---
 [Git 面对不同的场景的命令使用](https://github.com/CodeLittlePrince/blog/issues/1)
