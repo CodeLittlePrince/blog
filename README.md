@@ -16,17 +16,17 @@
 ---
 [canvas-玩转每一个像素-滤镜](https://github.com/CodeLittlePrince/blog/issues/4)
 
-PC目录
+PC
 ---
 
-Mobile目录
+Mobile
 ---
 
-Webpack目录
+Webpack
 ---
 [webpack v3 结合 react-router v4 做 dynamic import — 按需加载（懒加载)](https://github.com/CodeLittlePrince/blog/issues/3)
 
-Node目录
+Node
 ---
 
 网络安全
