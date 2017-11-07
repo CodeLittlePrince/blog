@@ -16,32 +16,54 @@ function draw() {
     // 替换颜色
     const originColor = ctx.getImageData(0, 0, ws, hs)
     const originColorData = originColor.data
-    const output = ctx.createImageData(ws, hs)
-    const outputData = output.data
+    ctx.clearRect(0, 0, ws, hs)
     // 灰化按钮绑定
-    const particleBtn = document.getElementById('particle')
-    particleBtn.addEventListener('click', function() {
-      particle(originColorData, outputData, ws, hs)
-      ctx.putImageData(output, 0, 0)
-    })
+    const particleBtn = document.getElementById('particleBtn')
+    // particleBtn.addEventListener('click', function() {
+      const points = calculatePoints(originColorData, ws, hs)
+      drawParticle(points, ctx)
+    // })
   }
 }
 
-// 粒子化
-function particle(originColorData, outputData, ws, hs) {
-  let index;
-  let r, g, b;
-  // 按行扫描
+function calculatePoints(originColorData, ws, hs) {
+  let points = []
+  let point = {}
+  let rgba = {}
   for (let y = 1; y <= hs; y++) {
     // 按列扫描
     for (let x = 1; x <= ws; x++) {
-      // rgb处理
       index = ((y - 1) * ws + (x - 1)) * 4
-      outputData[index] = originColorData[index]
-      outputData[index + 1] = originColorData[index + 1]
-      outputData[index + 2] = originColorData[index + 2]
-      // alpha
-      outputData[index + 3] = 255;
+      // rgb处理
+      rgba.r = originColorData[index]
+      rgba.g = originColorData[index + 1]
+      rgba.b = originColorData[index + 2]
+      rgba.a = originColorData[index + 3]
+      point = {
+        x: x - 1,
+        y: y - 1,
+        rgba: `rgba(${rgba.r}, ${rgba.g}, ${rgba.b}, ${rgba.a})`
+      }
+      points.push(point)
     }
   }
+  return points
+}
+
+// particle
+function drawParticle(points, ctx) {
+  points.forEach(function(item, index) {
+    ctx.fillStyle = item.rgba
+    let x = item.x + Math.random(0, 1)
+    let y = item.y + Math.random(0, 1)
+    ctx.fillRect(x, y, 1, 1)
+  }, this);
+}
+
+// t当前经过了的时间
+// b起始值
+// c总的位移
+// d持续时间
+function easeInExpo (t, b, c, d) {
+  return (t==0) ? b : c * Math.pow(2, 10 * (t/d - 1)) + b;
 }
