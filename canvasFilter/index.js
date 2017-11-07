@@ -61,9 +61,9 @@ function ashing(originColorData, outputData, ws, hs) {
   let index;
   let r, g, b;
   // 按行扫描
-  for (let y = 1; y < hs - 1; y++) {
+  for (let y = 1; y <= hs; y++) {
     // 按列扫描
-    for (let x = 1; x < ws - 1; x++) {
+    for (let x = 1; x <= ws; x++) {
       // rgb处理
       index = (y * ws + x) * 4
       let avg = 0.2126 * originColorData[index] + 0.7152 * originColorData[index + 1] + 0.0722 * originColorData[index + 2];
@@ -71,7 +71,7 @@ function ashing(originColorData, outputData, ws, hs) {
       outputData[index + 1] = avg
       outputData[index + 2] = avg
       // alpha
-      outputData[(y*ws + x)*4 + 3] = 255;
+      outputData[index + 3] = 255;
     }
   }
 }
@@ -81,9 +81,9 @@ function retro(originColorData, outputData, ws, hs) {
   let index;
   let r, g, b;
   // 按行扫描
-  for (let y = 1; y < hs - 1; y++) {
+  for (let y = 1; y <= hs; y++) {
     // 按列扫描
-    for (let x = 1; x < ws - 1; x++) {
+    for (let x = 1; x <= ws; x++) {
       // rgb处理
       index = (y * ws + x) * 4
       r = originColorData[index]
@@ -96,7 +96,7 @@ function retro(originColorData, outputData, ws, hs) {
       // b
       outputData[index + 2] = (r * 0.272) + (g * 0.534) + (b * 0.131)
       // alpha
-      outputData[(y*ws + x)*4 + 3] = 255;
+      outputData[index + 3] = 255;
     }
   }
 }
@@ -108,18 +108,18 @@ function weird(originColorData, outputData, ws, hs) {
   let index;
   let r, g, b;
   // 按行扫描
-  for (let y = 1; y < hs - 1; y++) {
+  for (let y = 1; y <= hs; y++) {
     // 按列扫描
-    for (let x = 1; x < ws - 1; x++) {
+    for (let x = 1; x <= ws; x++) {
       // rgb处理
       for (let c = 0; c < 3; c++) {
         random = Math.random(0, 255) * 100
         randomData = Math.abs(random - originColorData[index])
-        index = (y * ws + x) * 4 + c
+        index = ((y - 1) * ws + (x - 1)) * 4 + c
         outputData[index] = randomData
       }
       // alpha
-      outputData[(y*ws + x)*4 + 3] = 255;
+      outputData[index + 3] = 255;
     }
   }
 }
@@ -129,16 +129,16 @@ function photographicPlate(originColorData, outputData, ws, hs) {
   let index;
   let r, g, b;
   // 按行扫描
-  for (let y = 1; y < hs - 1; y++) {
+  for (let y = 1; y <= hs; y++) {
     // 按列扫描
-    for (let x = 1; x < ws - 1; x++) {
+    for (let x = 1; x <= ws; x++) {
       // rgb处理
       for (let c = 0; c < 3; c++) {
-        index = (y * ws + x) * 4 + c
+        index = ((y - 1) * ws + (x - 1)) * 4 + c
         outputData[index] = Math.abs(255 - originColorData[index])
       }
       // alpha
-      outputData[(y*ws + x)*4 + 3] = 255;
+      outputData[index + 3] = 255;
     }
   }
 }
