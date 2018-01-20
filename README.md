@@ -1,8 +1,7 @@
 子咻的博客
 ---
 ### 分类
- - PC
- - Mobile
+ - 杂谈
  - Webpack
  - Node
  - 网络安全
@@ -18,10 +17,6 @@
 ### 杂谈
 
 [canvas-玩转每一个像素-滤镜](https://github.com/CodeLittlePrince/blog/issues/4)
-
-### PC
-
-### Mobile
 
 ### Webpack
 
