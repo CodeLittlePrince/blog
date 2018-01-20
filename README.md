@@ -26,9 +26,10 @@
 ### Webpack
 
 [webpack v3 结合 react-router v4 做 dynamic import — 按需加载（懒加载)](https://github.com/CodeLittlePrince/blog/issues/3)
+[webpack-从0开始写一个webapck v3 loader](https://github.com/CodeLittlePrince/blog/issues/9)
 
 ### Node
-[npm-发布&管理module](https://github.com/CodeLittlePrince/blog/issues/8)
+[npm-从0开始写一个npm module](https://github.com/CodeLittlePrince/blog/issues/8)
 
 ### 网络安全
 
