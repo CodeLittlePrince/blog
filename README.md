@@ -10,6 +10,11 @@
 社交
 ----
 - segmentfault: [segmentfault主页](https://segmentfault.com/u/killpigdao)
+- 掘金: [segmentfault主页](https://juejin.im/user/596661b75188250d7669e2a8)
+
+联系方式
+---
+<1006312908@qq.com>
 
 文章
 ---
