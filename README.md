@@ -9,8 +9,8 @@
 
 社交
 ----
-- segmentfault: [segmentfault主页](https://segmentfault.com/u/killpigdao)
-- 掘金: [segmentfault主页](https://juejin.im/user/596661b75188250d7669e2a8)
+- segmentfault: [segmentfault个人主页](https://segmentfault.com/u/killpigdao)
+- 掘金: [掘金个人主页](https://juejin.im/user/596661b75188250d7669e2a8)
 
 联系方式
 ---
