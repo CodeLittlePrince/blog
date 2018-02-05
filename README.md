@@ -43,6 +43,8 @@
 
 [从零开始做Vue前端架构（5）](https://github.com/CodeLittlePrince/blog/issues/14)
 
+[从零开始做Vue前端架构（6）](https://github.com/CodeLittlePrince/blog/issues/15)
+
 ### 网络安全
 
 [网络安全-XSS](https://github.com/CodeLittlePrince/blog/issues/2)
