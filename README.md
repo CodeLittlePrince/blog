@@ -45,6 +45,8 @@
 
 [从零开始做Vue前端架构（6）单元测试 & 代码覆盖率](https://github.com/CodeLittlePrince/blog/issues/15)
 
+[从零开始做Vue前端架构（7）e2e测试](https://github.com/CodeLittlePrince/blog/issues/16)
+
 ### 网络安全
 
 [网络安全-XSS](https://github.com/CodeLittlePrince/blog/issues/2)
