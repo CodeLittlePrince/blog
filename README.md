@@ -47,6 +47,8 @@
 
 [从零开始做Vue前端架构（7）e2e测试](https://github.com/CodeLittlePrince/blog/issues/16)
 
+[从零开始做Vue前端架构（8）vuex](https://github.com/CodeLittlePrince/blog/issues/17)
+
 ### 网络安全
 
 [网络安全-XSS](https://github.com/CodeLittlePrince/blog/issues/2)
