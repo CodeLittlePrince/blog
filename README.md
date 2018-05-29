@@ -49,6 +49,8 @@
 
 [从零开始做Vue前端架构（8）vuex](https://github.com/CodeLittlePrince/blog/issues/17)
 
+[从零开始做Vue前端架构（9）脚手架](https://github.com/CodeLittlePrince/blog/issues/18)
+
 ### 网络安全
 
 [网络安全-XSS](https://github.com/CodeLittlePrince/blog/issues/2)
