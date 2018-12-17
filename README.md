@@ -32,6 +32,8 @@
 ### Node
 [npm-从0开始写一个npm module](https://github.com/CodeLittlePrince/blog/issues/8)
 
+[前端mock数据server新概念 — 状态管理](https://github.com/CodeLittlePrince/blog/issues/20)
+
 ### 前端架构
 [从零开始做Vue前端架构（1）基本webpack配置](https://github.com/CodeLittlePrince/blog/issues/10)
 
