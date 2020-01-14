@@ -71,7 +71,7 @@
 
 ### 测试
 
-[自动化测试-e2e框架选择](https://github.com/CodeLittlePrince/blog/issues/23)
+[自动化测试-e2e测试框架选择](https://github.com/CodeLittlePrince/blog/issues/23)
 
 ### Git
 
