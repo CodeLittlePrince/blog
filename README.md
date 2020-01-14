@@ -69,6 +69,10 @@
 
 [平庸前端码农之蜕变 — AST](https://github.com/CodeLittlePrince/blog/issues/19)
 
+### 测试
+
+[自动化测试-e2e框架选择](https://github.com/CodeLittlePrince/blog/issues/23)
+
 ### Git
 
 [Git 面对不同的场景的命令使用](https://github.com/CodeLittlePrince/blog/issues/1)
