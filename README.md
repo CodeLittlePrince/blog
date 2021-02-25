@@ -27,6 +27,8 @@
 
 [why https ?](https://github.com/CodeLittlePrince/blog/issues/22)
 
+[js-modules](https://github.com/CodeLittlePrince/js-modules)
+
 ### Webpack
 
 [webpack v3 结合 react-router v4 做 dynamic import — 按需加载（懒加载)](https://github.com/CodeLittlePrince/blog/issues/3)
