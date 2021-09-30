@@ -27,7 +27,7 @@
 
 [why https ?](https://github.com/CodeLittlePrince/blog/issues/22)
 
-[js-modules](https://github.com/CodeLittlePrince/js-modules)
+[JS模块化扫盲](https://github.com/CodeLittlePrince/blog/issues/24)
 
 ### Webpack
 
