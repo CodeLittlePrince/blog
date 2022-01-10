@@ -29,6 +29,8 @@
 
 [JS模块化扫盲](https://github.com/CodeLittlePrince/blog/issues/24)
 
+[npm - workspaces](https://github.com/CodeLittlePrince/blog/issues/25)
+
 ### Webpack
 
 [webpack v3 结合 react-router v4 做 dynamic import — 按需加载（懒加载)](https://github.com/CodeLittlePrince/blog/issues/3)
