@@ -29,7 +29,7 @@
 
 [JS模块化扫盲](https://github.com/CodeLittlePrince/blog/issues/24)
 
-[npm - workspaces](https://github.com/CodeLittlePrince/blog/issues/25)
+[workspaces - monorepo实战](https://github.com/CodeLittlePrince/blog/issues/25)
 
 ### Webpack
 
